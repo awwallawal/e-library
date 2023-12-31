@@ -93,7 +93,7 @@ a {
     text-decoration-thickness: .2rem;
 }
 
-.wrapper section {
+.wrapper .homepage-body {
     height: 60rem;
     width: 100%;
     /* linear-gradient(rgba(0,0,0, 0.9), rgba(0,0,0, 0.4)), */
@@ -106,7 +106,7 @@ a {
     align-items: center;
 }
 
-.wrapper section .box {
+.wrapper .homepage-body .box {
     width: 35rem;
     padding: 2.5rem;
     border: 1px solid #fff;
@@ -117,7 +117,7 @@ a {
     box-shadow: 0 0 3rem rgba(188, 200, 20, 0.5);
 }
 
-.wrapper section .box>p {
+.wrapper .homepage-body .box>p {
     padding: 2rem;
     text-shadow: 0,0,0.3rem black;
 }
@@ -147,7 +147,7 @@ a {
 
 .card {
     flex-basis: 30%;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .card p {
@@ -155,16 +155,22 @@ a {
     margin-top: 2rem;
 }
 
-.card-header {
-    display: flex;
-    gap: 1rem;
-    justify-content: flex-start;
-    align-items: center;
+.footer1>.card{
+    /* border: 1px solid red; */
+}
+
+.footer1>.card-2 {
+    /* padding-left: 4rem; */
+}
+
+.footer1>.card h2 {
+    border-bottom: 1px solid white;
+    border-bottom-width: .3rem;
 }
 
 /* Did this just to push the second card to give a semblance of equal spacing */
 .card-2 {
-    padding-left: 13rem;
+    /* margin-left: 10rem; */
 }
 
 .card-2 ul {
@@ -251,4 +257,19 @@ a {
 .wrapper footer .footer2 a:hover {
     color: #ccc;
     text-decoration: underline;
+}
+
+/* ----------------student_Login.html------------------------- */
+
+.wrapper .student-body {
+    height: 100rem;
+    width: 100%;
+    /*  */
+    background: linear-gradient(rgba(0,0,0, 0.9), rgba(0,0,0, 0.4)), url(./image/daniel-filipe-antunes-santos-B_3gNlkW-W0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
