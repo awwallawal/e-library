@@ -4,6 +4,23 @@ const showPassword = document.getElementById("show-password");
 const eyeIcon = document.getElementById('eye-icon');
 const email = document.getElementById('email');
 const form = document.getElementById("form");
+const loginBtn = document.getElementById("login-btn");
+const regBtn = document.getElementById("reg-btn");
+const closeBtn = document.querySelector(".close-btn")
+console.log(closeBtn)
+
+regBtn.addEventListener('click', ()=>{
+    console.log("Salaam Alaikum Awwal")
+})
+
+loginBtn.addEventListener('click', ()=>{
+    console.log("Salaam Alaikum Akolade")
+})
+
+closeBtn.addEventListener('click', ()=>{
+    console.log("Salaam Alaikum Akanni")
+    
+})
 
 
 

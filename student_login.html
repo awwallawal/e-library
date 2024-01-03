@@ -25,22 +25,31 @@
         </header>
     
         <section class="student-body">
+
+
             <div class="box">
 
+                <span class="close-btn"><ion-icon name="close-outline"></ion-icon></span>
+
+                <div class="control-btn">
+                    <p><button id="login-btn">Login</button></p>
+                    <p><button id="reg-btn">Registration</button></p>
+                </div>
+
                 <form action="" id="form">
-                    <div>
+                    <div class="row">
                         <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
                         <label for="email">Email</label>
                         <input type="text" name="email" id="email" placeholder="john@example.com" required>
                     </div>
 
-                    <div>
+                    <div class="row">
                         <span class="icon" id="eye-password"><ion-icon name="eye-off-outline" id="eye-icon"></ion-icon></span>
                         <label for="password">Password <span id="show-password"></span></label>
                         <input type="password" name="password" id="password" placeholder="password1234" required>
                     </div>
 
-                    <button type="submit" id="form-submit">Submit</button>
+                    <button type="submit" id="form-submit">Login</button>
                 </form>
                 
             </div>

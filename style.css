@@ -276,7 +276,7 @@ a {
 
 .wrapper .student-body .box {
     width: 35rem;
-    height: 40rem;
+    height: 50rem;
     padding: 2.5rem;
     border: 1px solid #fff;
     background: #743115;
@@ -288,13 +288,43 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 3.2rem;
+    position: relative;
+    overflow: hidden;
 }
+
+.wrapper .student-body .box .close-btn {
+    position: absolute;
+    top: -0.1rem;
+    right: -0.1rem;
+    background-color: #e5530f;
+    padding: 2rem;
+    border-bottom-left-radius: 3rem;
+    border: none;
+    outline: none;
+}
+
+.wrapper .student-body .box .close-btn ion-icon {
+    font-size: 2.2rem;
+}
+
+.wrapper .student-body .box .control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper .student-body .box .control-btn p {
+    width: 100%;
+    margin: 1rem;
+}
+
 .wrapper .student-body .box form {
     /* border: 1px solid gold; */
     width: 100%;
 }
 
-.wrapper .student-body .box div {
+.wrapper .student-body .box .row {
     width: 100%;
     /* border: 1px solid red; */
     display: flex;
